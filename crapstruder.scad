@@ -8,7 +8,7 @@ center_hole_offset_z=3;
 center_hole_offset_x=-1.375;
 
 cutout_sizing=1.0; // fitting parameter for afinia extruder piece
-rotate([0,90,0]) {
+rotate([0,-90,0]) {
 difference()
 {
   union() {
